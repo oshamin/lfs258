@@ -8,10 +8,10 @@ terraform {
   required_version = "~> 1.0"
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "<YOUR-ORG-NAME>"
+    organization = "ovshamin"
 
     workspaces {
-      name = "state-migration"
+      name = "lfs258"
     }
   }
 }
